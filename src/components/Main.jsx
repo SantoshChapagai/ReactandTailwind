@@ -1,21 +1,12 @@
 import React from 'react';
-import Card from '../UI/Card'
+import 'tailwindcss/tailwind.css';
 
 const Main = () => {
   return (
-    <div className=" p-5 grid  gap-xp gap-y-2 grid-cols-3 bg-gradient-to-r from-cyan-500 to-blue-500">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+    <div
+      className="h-screen w-full bg-cover"
+      style={{ backgroundImage: "url('https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704_1280.jpg')" }}
+    >
     </div>
   );
 };
