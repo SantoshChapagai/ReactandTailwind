@@ -1,9 +1,21 @@
 import React from 'react';
+import Card from '../UI/Card'
 
 const Main = () => {
   return (
-    <div className="h-96 p-5 flex justify-center items-center bg-gradient-to-r from-cyan-500 to-blue-500">
-      Main will be here
+    <div className=" p-5 grid  gap-xp gap-y-2 grid-cols-3 bg-gradient-to-r from-cyan-500 to-blue-500">
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 };
