@@ -1,28 +1,29 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
     <div className='flex justify-between bg-gray-200 p-3'>
       <div>
-        <h3>Tailwind</h3>
+        <NavLink to="/"><h3>Tailwind</h3></NavLink>
       </div>
       <div>
         <nav>
           <ul className='flex gap-3'>
             <li>
-              <a href="/">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a href="/">About</a>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <a href="/">Projects</a>
+              <NavLink to="/projects">Projects</NavLink>
             </li>
             <li>
-              <a href="/">Contacts</a>
+              <NavLink to="/contact">Contacts</NavLink>
             </li>
             <li>
-              <a href="/">More</a>
+              <NavLink to="/more">More</NavLink>
             </li>
           </ul>
         </nav>
