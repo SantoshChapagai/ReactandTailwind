@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <div className='bg-lime-200 h-screen flex justify-center items-center'>
+    <div className='bg-lime-200 h-screen flex justify-center'>
       Projects will be here
     </div>
   );
