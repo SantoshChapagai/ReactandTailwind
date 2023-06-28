@@ -5,7 +5,7 @@ const About = () => {
     <div className='h-screen bg-red-100 flex flex-col justify-center'>
       <div className='flex justify-center m-5 p-2'>
         <div>
-          <img className='h-54 w-96 mr-20' src='https://cdn.pixabay.com/photo/2015/01/08/18/26/man-593333_1280.jpg' alt="working man" />
+          <img className='h-54 w-96 mr-20 sm-p-5' src='https://cdn.pixabay.com/photo/2015/01/08/18/26/man-593333_1280.jpg' alt="working man" />
         </div>
         <div>
           <h3>Santosh chapagai</h3>
